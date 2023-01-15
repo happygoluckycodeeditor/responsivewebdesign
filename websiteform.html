@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+  <meta charset="UTF-8">
+  <title> Tinku Pinku Form </title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 id="title"> Survey Form </h1> 
+  <p id="description"> Please fill out this form and move on with your life</p>
+<form id="survey-form" method="post" action="https://register-demo.freecodecamp.org">
+<fieldset>
+<label for="name" id="name-label">Name: </label>
+<input type="text" id="name" placeholder="Name" required />
+<label for="email" id="email-label"> E-mail Address: </label><input type="email" type="text" id="email" placeholder="Email Address" required />
+<label for="number" id="number-label">Age: </label><input id="number" placeholder="Phone number" type="number" min="18" max="100" id="number"/> </label>
+<label for="dropdown"> What is your profession 😳: </label>
+  <select id="dropdown">
+    <option value="">(Select one)</option>
+    <option value="1">Student</option>
+    <option value="2">Employed</option>
+    <option value="3">Jobless</option>
+    <option value="4">भिकारी</option>
+    </select>
+  </fieldset>
+<p id="description"> Tell us more about yourself! </p>
+<fieldset>
+
+<label for="gender"> What is your gender? </label>
+<input id="gender" type="radio" value="1" class="inline" name="gender"> Male </input>
+<input id="gender" type="radio" value="2" class="inline" name="gender"> Female </input>
+<input id="gender" type="radio" value="3" class="inline" name="gender"> Other </input>
+<label for="checkbox"> How did you get to know about us? </label>
+<input type="checkbox" id="checkbox" name="infoaboutus" value="1"> From the internet </input>
+<input type="checkbox" id="checkbox" value="2" name="infoaboutus"> From Flyer </input>
+</fieldset>
+<fieldset>
+<label for="textbox"> Now, write a short introduction about yourself for the fans :) </label>
+<textarea rows="3" cols="30" placeholder="I am Tinku, I like cats"  id="textbox" name="textbox">
+</textarea>
+<input type="submit" id="submit" name="submit">
+
+</form> 
+</body>
+</html>
