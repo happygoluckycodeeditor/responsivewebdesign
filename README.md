@@ -3,4 +3,5 @@ Just some of the assignments I made for Responsive Web Design course on freecode
 
 This is the survey form I made for the assignment
 
-![image](https://user-images.githubusercontent.com/110551323/212673434-c437242a-7f78-4937-b90c-35b3b81fb1ce.png)
+<img width="599" alt="image" src="https://user-images.githubusercontent.com/110551323/212673556-728cee7b-e82b-41d6-9870-390eb48535e3.png">
+
